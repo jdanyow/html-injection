@@ -1,4 +1,4 @@
-import { html, render } from './lib/lit-html/index.js';
+import { html, render } from './lib/html/index.js';
 
 const params = new URLSearchParams(location.search);
 const searchTerm = params.get('term');
