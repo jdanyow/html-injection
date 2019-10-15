@@ -11,4 +11,4 @@ const templateResult = html`
         <em>${searchTerm}</em>
     </h1>`;
 
-render(templateResult, main);
+render(templateResult, header);

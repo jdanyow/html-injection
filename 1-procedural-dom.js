@@ -17,6 +17,6 @@ h1.appendChild(term);
 
 h1.insertAdjacentText('beforeend', '"');
 
-main.appendChild(h1);
+header.appendChild(h1);
 
 // safe, editor support, verbose, hard to visualize

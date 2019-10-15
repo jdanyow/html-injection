@@ -1,9 +1,11 @@
+import { escape } from './lib/escape';
+
 const params = new URLSearchParams(location.search);
 const searchTerm = params.get('term');
 
 const resultCount = 512708;
 
-main.innerHTML =
+header.innerHTML =
 	'<h1>' +
 	'<strong>' + resultCount.toLocaleString() + '</strong> results for "' +
 	'<em>' + searchTerm + '</em>"' +
