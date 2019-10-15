@@ -1,0 +1,18 @@
+{
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.formatOnSave": true,
+	"lit-html.format.enabled": false,
+	"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+	"typescript.tsdk": "./node_modules/typescript/lib",
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.importModuleSpecifier": "relative",
+	"javascript.preferences.quoteStyle": "single",
+	"html.format.unformatted": "md"
+}
